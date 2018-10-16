@@ -1,0 +1,180 @@
+html, body {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.btn-pos{
+	background-color:  #FACC2E;
+}
+p {
+    margin: 0;
+}
+
+.image-container{
+	position: relative;
+	border: solid 2px #f5f5f5;
+	padding: 10px;
+	padding-bottom: 70%;
+	overflow: hidden;
+}
+.image-container img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+}
+
+.image-container + .panel-footer {
+	border-top: none;
+	margin-bottom: 30px;
+}
+
+.gallery-name{
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.gallery-description span {
+	font-size: 12px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.panel.article .panel-footer > span, .panel.article .panel-footer time span {
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 30px;
+	color: #5c5c5c;
+}
+
+.panel.article .title {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.panel.article .panel-body .fa {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.panel.article .panel-body .fa-trash-o {
+	color: #f64747;
+}
+
+@media screen and (max-width: 560px) {
+
+	.panel.article .panel-footer > span {
+		display: none;
+	}
+}
+
+#wrapper {
+	height: 100%;
+}
+
+#page-wrapper {
+	min-height: 100%;
+}
+
+.display-table {
+    display: table;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.display-table-row {
+    display: table-row;
+    height: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
+.valign-top {
+    vertical-align: top;
+}
+
+.table .form-group {
+		display: block;
+}
+
+.table .form-group .form-control {
+		display: block;
+		width: 100%;
+}
+
+.panel-detail span {
+	margin-right: 10px;
+	display: inline-block;
+	color: #505050;
+	font-size: 12px;
+}
+
+.text-preview {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.3em;
+  max-height: 3.9em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+
+.text-preview:before {
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.text-preview:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.list-group-item.header {
+  background-color: #f5f5f5;
+  color: #494949;
+	font-weight: bold;
+}
+
+.ct-series-a .ct-line {
+	stroke: #ff971c !important;
+}
+
+.ct-series-a .ct-point {
+  /* Colour of your points */
+  stroke: #ff6b00 !important;
+}
+
+.ct-label {
+	font-size: 13px !important;
+}
+
+.ct-chart-pie .ct-label {
+ 	fill: white !important;
+}
+
+
